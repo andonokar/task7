@@ -14,7 +14,10 @@ with float values <br>
 After passing, the app will check if it is a raw json or json file or invalid and proceed to output in json format
 string the results of the predictions: <br>
 0 for not converted <br>
-1 for converted
+1 for converted <br>
+
+If you are not secure about the pickle file there, you can generate the pkl file again just by running the notebook with
+the kaggle link to get the dataset
 
 ## Why is the training csv file not availabe?
 The link to the csv file is in the notebook, it's not displayable in this repo because it's 400MB,
